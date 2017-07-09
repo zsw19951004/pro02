@@ -1,0 +1,56 @@
+/****联系我们****/
+div.contact_us{
+    padding:50px;
+    height:500px;
+}
+div.contact_us h1{
+    text-align:center;
+    color:#C40000;
+}
+div.contact_us h1 b{
+    margin:0 10px;
+}
+div.contact_us form{
+    width:1000px;
+    margin:0 auto;
+}
+div.contact_us div>span{
+    height:20px;
+    font-size:16px;
+    line-height:20px;
+}
+div.contact_us input{
+    padding:1px;
+    width:300px;
+    height:30px;
+    font-size:15px;
+    outline:none;
+    box-sizing:border-box;
+}
+div.contact_us textarea{
+    height:100px;
+    max-height:200px;
+    min-width:900px;
+    max-width:1000px;
+    overflow:auto;
+    font-size:14px;
+}
+div.contact_us p{
+    margin:10px 0;
+    color:#666;
+    font-weight:bold;
+    font-size:16px;
+}
+div.contact_us button{
+    margin-top:10px;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    font-size:16px;
+    color:#FFF;
+    background-image:linear-gradient(to bottom,#FF8484,#FE3C3A);
+    border:none;
+    outline:none;
+    cursor:pointer;
+		border-radius:5px;
+}

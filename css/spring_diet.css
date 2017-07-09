@@ -1,0 +1,70 @@
+#main{
+	margin-top:80px;
+	position:relative;
+}
+#wen{
+	width:1120px;
+	margin-top:100px;
+	margin-left:90px;
+	position:relative;
+	left:1260px;
+	transition: transform 1.5s linear;
+}
+#wen.hover{
+	transform:translatex(-1260px);/*2D在x轴上位移，效果实现从右向左飞入*/
+}
+#pg{
+	font-size:32px;
+	font-weight:bold;
+	color:#C40000;
+}
+#wen p{
+	margin:10px;
+	font-size:16px;
+}
+#fu{
+	padding-left:40px;
+	color:#CCCCCC;
+}
+#picture{
+	width:900px;
+	height:500px;
+	margin-top:80px;
+	margin-left:220px;
+	margin-bottom:200px;
+	}
+#picture .back{
+	float:left;
+  margin:10px;
+}
+#picture li{
+	float:left;
+	position:relative;
+	width:425px;
+	height:298px;
+	margin:10px;
+}
+/*图片翻转效果*/
+#picture .front,#picture .back{
+	backface-visibility:hidden;
+	transition:all 1s linear;	
+}
+#picture .front{
+	position:absolute;
+	left:10px;
+	top:10px;
+	z-index:2;
+	transform:rotateY(0);
+}
+#picture .back{
+	position:absolute;
+	text-align:center;
+	z-index:1;
+	transform:rotateY(180deg);	
+}
+#picture li:hover .front{
+	transform:rotateY(180deg);
+}
+#picture li:hover .back{
+	transform:rotateY(0);
+}

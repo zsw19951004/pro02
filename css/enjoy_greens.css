@@ -1,0 +1,250 @@
+/*通用*/
+body{
+	font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+	margin:0;
+}
+a{
+	color:#2b2b2b;
+	text-decoration:none;
+}
+a:hover{
+	color:#C40000;
+}
+
+ul,p{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+img{vertical-align:bottom;}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+/**顶部**/
+#header{
+	width:1200px;
+	height:100px;
+	
+	margin:0 auto;
+	text-align:center;
+}
+#header div{
+	margin:33px 0px 0px 93px;
+	float:left;
+	
+	
+}
+#header span{
+	font-size:32px;
+	color:#C40000;
+	font-weight:bold;
+	position:relative;
+
+}
+#header div b{
+	font-size:32px;
+	color:#CCCCCC;
+	margin-left:12px;
+}
+#header ul{
+	float:right;
+	margin:43px 129px 0px 0px;
+}
+#header ul a{
+	font-size:16px;
+}
+
+#header ul li{
+	float:left;
+	margin-left:41px;
+}
+/*主体*/
+#body{
+	width:546px;
+	height:300px;
+	transition:transform 1.5s linear;
+	position:absolute;
+	top:650px;
+	left:1389px;
+	margin:0 auto;
+	text-align:center;
+}
+#body.hover{
+	transform:translatex(-940px);
+}
+#body div{
+	  font-size:40px;
+	  color:#C40000;
+	  margin-top:64px;
+	  font-weight:bold;
+}
+#body div span:first-child{
+	margin-right:43px;
+}
+#body div span:last-child{
+	margin-left:43px;
+}
+#body p:nth-child(2){
+	font-size:17px;
+	color:#CCCCCC;
+}
+#body p:nth-child(3),#body p:nth-child(4),#body p:nth-child(5){
+	font-size:14px;
+	color:#7D7D7D;
+}
+#body p:nth-child(3){
+	margin-top:40px;
+}
+#body p:nth-child(4),#body p:nth-child(5){
+	margin-top:6px;
+}
+
+
+
+/*页脚*/
+#footer{
+	position:relative;
+	width:1200px;
+	height:739px;
+	
+	margin:0 auto;
+	margin-top:374px;
+}
+#footer ul{
+	margin:0 auto;
+	width:1000px;
+	min-height:500px;
+	position:absolute;
+	top:91px;
+	left:159px;	
+}
+#footer ul li{
+	float:left;
+	margin:0 20px 20px 0;
+}
+#footer ul li img{
+	width:300px;
+	height:302px;
+}
+#footer li{
+	position:relative;
+	overflow:hidden;
+}
+#footer .kong{
+	position:absolute;
+	top:-302px;
+	width:300px;
+	height:302px;
+	transition:all .5s linear;
+	opacity:1;
+	background: rgba(0,0,0,.5) url(../images/xuetangPic.png) center no-repeat;
+}
+#footer .in{
+	top:0;
+}
+#footer>div{
+	width:494px;
+	height:40px;
+	margin:0 auto;
+	text-align:center;
+}
+#footer div span{
+	margin-left:24px;
+	float:left;
+	width:134px;
+	height:40px;
+	border-radius:25px;
+	font-size:16px;
+	border:1px solid #CCCCCC;
+	text-align:center;
+	line-height:40px;
+}
+#footer div span.in{
+	background-color:#C40000;
+	color:#fff;
+
+}
+#footer div.first span{
+	background-color:#C40000;
+	color:#fff;
+
+}
+
+
+#footer div.first ul{
+	display:block;
+}
+#footer div.first ul.inner{
+	display:block;
+}
+
+#footer div.second ul.inner{
+	display:block;
+}
+#footer div.third ul.inner{
+	display:block;
+}
+#footer div.second ul{
+	display:none;
+}
+#footer div.third ul{
+	display:none;
+}
+
+
+/*底部*/
+#bottom{
+	width:1349px;
+	height:136px;
+	
+	text-align:center;
+	background-color:black;
+
+}
+#bottom div{
+	width:1200px;
+	height:64px;
+	
+	margin:0 auto;
+	margin-top:16px;
+}
+#bottom ul{
+	width:448px;
+	height:42px;
+	
+	margin:0 auto;
+	font-size:16px;
+	
+}
+#bottom p{
+	color:#4D4D4D;
+}
+#bottom p a{
+	color:#4D4D4D;
+}
+#bottom ul li a{
+	color:#4D4D4D;
+}
+#bottom ul li{
+	float:left;
+	margin-left:29px;
+	
+}
+#bottom div span{
+	font-size:32px;
+	color:#C40000;
+	font-weight:bold;
+}
+#bottom b{
+	font-size:32px;
+	color:#fff;
+	margin-left:12px;
+	
+}
+#bottom font{
+	border-top:1px solid #353535;
+	width:410px;
+	display:inline-block;
+	padding-top:12px;
+}

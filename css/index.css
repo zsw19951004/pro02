@@ -1,0 +1,346 @@
+/* **************banner广告部分*************** */
+.banner{
+	overflow:hidden;
+}
+.banner img{
+	position:relative;
+	left:50%;
+	margin-left:-960px;
+}
+/* ****************品牌故事*************************** */
+.main{
+	width:100%;
+}
+.story{
+	width:100%;
+}
+.story_wrp{
+	width:1200px;
+	height:489px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+.story_wrp .pStory{
+	color:#c40000;
+	font-size:40px;
+	font-weight:bolder;
+	position:absolute;
+	top:180px;
+}
+.story_wrp .aboutUs{
+	margin-left:50px;
+	color:#cccccc;
+	font-size:21px;
+	position:absolute;
+	top:240px;
+}
+.story_wrp .storyContent{
+	float:right;
+	width:810px;
+	font-size:21px;
+	color:#666;
+	margin-top:130px;
+}
+/* 典故 */
+.literary_quotation{
+	width:100%;
+	height:496px;
+	background:url(../images/background.jpg)no-repeat center;
+	position:relative;
+	left:1260px;
+	transition: transform 1.5s linear;
+}
+.literary_quotation.hover{
+	transform:translatex(-1260px);/*2D在x轴上位移*/
+}
+#story_img{
+	float:right;
+	width:202px;
+	height:200px;
+	position:absolute;
+	top:1066px;
+	right:158px;
+	overflow:hidden;
+}
+#story_img img{
+	width:202px;
+	height:200px;
+	margin:0;
+	transition:all .5s ease-out;
+}
+#story_img:hover .img_logo{
+	width:252px;
+	height:250px;
+	margin:-25px 0 0 -25px;
+}
+.literary_quotation span{
+	display:block;
+	width:476px;
+	font-size:14px;
+	color:rgb(169, 169, 169);
+	position:absolute;
+	top:210px;
+	right:100px;
+}
+/* 春日菜式 */
+.dishStyle{
+	width:100%;
+	height:766px;
+	background:url(../images/caishi.jpg)no-repeat center;
+	position:relative;
+}
+.springdish{
+	font-size:40px;
+	font-family:Microsoft YaHei;
+	font-weight:bolder;
+	color:#c40000;
+	position:absolute;
+	top:180px;
+	left:350px;
+}
+.dish{
+	color:#cccccc;
+	font-size:21px;
+	position:absolute;
+	top:240px;
+	left:370px;
+}
+.springStory{
+	display:block;
+	line-height:24px;
+	width:476px;
+	font-size:14px;
+	text-align:center;
+	color: rgb(115, 115, 115);
+	position:absolute;
+	top:300px;
+	left:258px;
+}
+.btn{
+    font-size:26px;
+    line-height:52px;
+    font-family:"Microsoft YaHei";
+	text-align:center;
+    overflow:visible;
+	position:absolute;
+	top:500px;
+	left:350px;
+}
+.btn a{
+	display:block;
+	width:220px;
+	height:58px;
+	color:#c40000;
+	border:1px solid #c40000;
+    border-radius: 80px 80px 80px 80px;
+}
+.moreBtn{
+	width:425px;
+	height:98px;
+	position:absolute;
+	top:160px;
+	right:100px;
+}
+.moreBtn a{
+	display:inline-block;
+	width:100px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	color:#666;
+	border:1px solid #666;
+    border-radius: 80px 80px 80px 80px;
+	margin-right:20px;
+}
+.moreBtn a:hover{
+	color:#c40000;
+	border:1px solid #c40000;
+}
+/* ***********************************菜式图片************************************************* */
+.dishStyleImg{
+	width:500px;
+	height:500px;
+	position:absolute;
+	top:236px;
+	right:110px;
+}
+.dishStyleImg li{
+	float:left;
+	width:155px;
+	height:155px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.dishStyleImg img{
+	width:150px;
+	height:150px;
+	transition:all .5s linear;
+}
+.dishStyleImg img:hover{
+	width:155px;
+	height:155px;
+}
+/* ***********************************加盟优势************************************************** */
+.join{
+	width:100%;
+	height:790px;
+	background:url(../images/join.jpg)no-repeat center;
+	position:relative;
+	right:1060px;
+	transition: transform 1.5s linear;
+}
+.join.hover{
+	transform:translatex(1060px);
+}
+.join span{
+	display:block;
+	color:#FFF;
+	font-size:40px;
+	font-weight:bolder;
+	font-family:Microsofot YaHei;
+	text-align:center;
+	margin-top:6px;
+}
+#fontWrap{
+	position:absolute;
+	top:36px;
+	left:548px;
+}
+.joinImg{
+	width:1200px;
+	height:hidden;
+	position:absolute;
+	top:200px;
+	left:150px;
+}
+.joinImg #img{
+	float:left;
+	margin:0 20px;
+	position:relative;
+}
+#img b{
+	font-size:60px;
+	color:#FFF;
+	position:absolute;
+	top:28px;
+	left:20px;
+}
+#img span{
+	font-size:24px;
+	color:#FFF;
+	position:absolute;
+	top:120px;
+	left:88px;
+}
+#img #Bimg{
+	font-size:60px;
+	color:#FFF;
+	position:absolute;
+	top:218px;
+	left:20px;
+}
+#img #Simg{
+	font-size:24px;
+	color:#FFF;
+	position:absolute;
+	top:310px;
+	left:88px;
+}
+/*************************************联系我们**********************************************/
+div.contact_us{
+	padding:50px;
+	height:500px;
+}
+div.contact_us>div{
+	width:1200px;
+	margin:0 auto;
+}
+div.contact_us h1{
+	text-align:center;
+	color:#C40000;
+}
+div.contact_us h1 b{
+	margin:0 10px;
+}
+div.contact_us>div{
+	width:1000px;
+	margin:0 auto;
+}
+div.contact_us input{
+	width:900px;
+	height:30px;
+	outline:none;
+	font-size:15px;
+}
+div.contact_us textarea{
+	height:100px;
+	max-height:200px;
+	min-width:900px;
+	max-width:1000px;
+	overflow:auto;
+	outline:none;
+	font-size:14px;
+}
+div.contact_us p{
+	margin:10px 0;
+	color:#666;
+	font-weight:bold;
+	font-size:16px;
+}
+div.contact_us button{
+	margin-top:10px;
+	width:220px;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#FFF;
+	background-image:linear-gradient(to bottom,#FF8484,#FE3C3A);
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+/***footer***/
+footer{
+	background:#000;
+	min-height:100px;
+}
+footer div.foot_box{
+	width:1200px;
+	margin:0 auto;
+}
+footer div.foot_box p{
+	padding-top:30px;
+	text-align:center;
+}
+div.foot_box b{
+	color:#353535;
+}
+div.foot_box span{
+	font-size:30px;
+	line-height:30px;
+	color:#C40000;
+}
+div.foot_box span>i{
+	font-style:normal;
+	color:#ccc;
+	margin-left:10px;
+}
+div.foot_box ul{
+	padding-left:350px;
+}
+div.foot_box li{
+	margin-top:10px;
+	float:left;
+}
+div.foot_box li a{
+	color:#FFF;
+	min-width:60px;
+	margin:0 10px;
+	line-height:50px;
+	font-size:18px;
+	display:block;
+}
+div.foot_box li a:hover{
+	color:#c40000;
+}
